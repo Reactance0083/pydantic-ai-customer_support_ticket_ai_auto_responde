@@ -1,8 +1,13 @@
-> **Commercial status:** Preview scaffold only. This repository is not currently a verified production-ready paid product. Do not treat it as commercially ready until this banner is removed.
+> **Commercial status:** Preview/unverified starter. This repository is not the current flagship and is not currently a commercially verified paid product.
+
+
+## Current Status
+
+This repository is a preview/unverified starter. It is not the active flagship and is not currently commercially verified. Do not treat it as a ready-to-buy production package until this notice is removed after a fresh commercial-readiness check.
 
 # Customer Support Ticket → AI Auto-Responder with Human Handoff
 
-A production-ready FastAPI + pydantic-ai template that ingests support tickets from Zendesk, Intercom, or Help Scout, generates grounded responses with RAG over your docs, scores confidence, and either auto-replies or escalates to a human with a pre-written draft.
+A preview FastAPI + pydantic-ai template that ingests support tickets from Zendesk, Intercom, or Help Scout, generates grounded responses with RAG over your docs, scores confidence, and either auto-replies or escalates to a human with a pre-written draft.
 
 ## Overview
 
