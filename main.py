@@ -1,7 +1,7 @@
 """
-Customer Support Ticket → AI Auto-Responder with Human Handoff
-Pydantic-AI + FastAPI template for intelligent support automation with human escalation.
-Full working source: https://reactance0083.gumroad.com
+Support Ticket and Human Handoff API Design.
+Public interface scaffold: typed schemas and health route.
+Business handlers are placeholders; see README for the implementation boundary.
 """
 
 # -- Preview scaffold (non-functional) --
@@ -43,7 +43,7 @@ class HandoffRequest(BaseModel):
     assigned_agent: str | None = Field(default=None, description="Target agent email")
 
 
-# The full version includes:
+# Proposed extensions; not implemented in this public scaffold:
 # • Pydantic-AI agent with few-shot prompt engineering for consistent responses
 # • Real-time ticket classification using semantic embeddings
 # • Vector database (Pinecone/Qdrant) for knowledge base retrieval
